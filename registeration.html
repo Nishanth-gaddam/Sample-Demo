@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        h3 {
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>DevOps</h2>
+    <h3>Student Registration Form</h3>
+
+    <form>
+        <table align=center border=1>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Contact Number:</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox"> Reading
+                    <input type="checkbox"> Sports
+                </td>
+            </tr>
+            <tr>
+                <td>Skillset:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Highest Qualification:</td>
+                <td>
+                    <select>
+                        <option>Graduate</option>
+                        <option>Post Graduate</option>
+                        <option>Diploma</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>District:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr class="buttons">
+                <td colspan="2">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
